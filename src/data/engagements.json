@@ -1,0 +1,14 @@
+[
+  { "name": "AOLP", "description": "Keynote workshop, several hundred attendees" },
+  { "name": "Gracie Barra Leadership Conference", "description": "Keynote" },
+  { "name": "YellowTelescope", "description": "Keynote" },
+  { "name": "Vector Marketing", "description": "Keynote" },
+  { "name": "Front Row Dads", "description": "Keynote workshop" },
+  { "name": "Freedom Builders University", "description": "Keynote" },
+  { "name": "GoBundance", "description": "Keynote workshop" },
+  { "name": "USF", "description": "University keynote" },
+  { "name": "FBLA", "description": "Student organization" },
+  { "name": "NSLS", "description": "Student organization" },
+  { "name": "CBS", "description": "Media feature" },
+  { "name": "100+ Podcast Guest Appearances", "description": "" }
+]
