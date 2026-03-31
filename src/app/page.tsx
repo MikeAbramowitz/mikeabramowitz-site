@@ -77,8 +77,14 @@ export default function HomePage() {
             </FadeUp>
 
             <FadeUp className="relative">
-              {/* Replace with Mike's professional headshot */}
-              <div className="mx-auto h-[460px] w-[380px] rounded-lg bg-brand-blue-light" />
+              <Image
+                src="/headshot.webp"
+                alt="Mike Abramowitz headshot"
+                width={380}
+                height={460}
+                className="mx-auto h-[460px] w-[380px] rounded-lg object-cover"
+                priority
+              />
               <div className="absolute bottom-4 left-4 rounded-lg bg-brand-white px-5 py-3 shadow-lg lg:bottom-8 lg:left-0">
                 <p className="text-[28px] font-bold text-brand-blue">100+</p>
                 <p className="text-[13px] text-brand-gray-400">
