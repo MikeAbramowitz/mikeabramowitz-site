@@ -17,11 +17,11 @@ export default function Footer() {
         {/* Logo */}
         <div className="mb-8">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="Mike Abramowitz"
             width={1051}
             height={126}
-            className="h-10 w-auto brightness-0 invert opacity-60"
+            className="h-10 w-auto invert opacity-70"
           />
         </div>
 

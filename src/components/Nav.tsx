@@ -32,7 +32,7 @@ export default function Nav() {
         {/* Logo */}
         <Link href="/">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="Mike Abramowitz"
             width={1051}
             height={126}
