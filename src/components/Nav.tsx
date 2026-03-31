@@ -34,9 +34,9 @@ export default function Nav() {
           <Image
             src="/logo.jpg"
             alt="Mike Abramowitz"
-            width={320}
-            height={48}
-            className="h-12 w-auto"
+            width={1051}
+            height={126}
+            className="h-10 w-auto"
             priority
           />
         </Link>

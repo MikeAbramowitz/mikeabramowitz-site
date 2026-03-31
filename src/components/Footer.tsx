@@ -19,9 +19,9 @@ export default function Footer() {
           <Image
             src="/logo.jpg"
             alt="Mike Abramowitz"
-            width={320}
-            height={48}
-            className="h-12 w-auto brightness-0 invert opacity-60"
+            width={1051}
+            height={126}
+            className="h-10 w-auto brightness-0 invert opacity-60"
           />
         </div>
 
