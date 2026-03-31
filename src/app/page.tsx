@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import FadeUp from "@/components/FadeUp";
 import SocialProofBar from "@/components/SocialProofBar";
@@ -141,19 +142,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <FadeUp>
-              {/* Replace with YouTube embed once Mike provides video URL */}
-              <div className="flex aspect-video items-center justify-center rounded-xl bg-brand-dark">
-                <div className="text-center">
-                  <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-white/20">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
-                      <polygon points="5,3 19,12 5,21" />
-                    </svg>
-                  </div>
-                  <p className="mt-4 text-sm text-white/60">
-                    AOLP Keynote Sizzle Reel
-                  </p>
-                </div>
-              </div>
+              <iframe
+                className="aspect-video w-full rounded-xl"
+                src="https://www.youtube.com/embed/XwQEPYWkcl8"
+                title="AOLP Keynote Sizzle Reel"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </FadeUp>
 
             <FadeUp>
@@ -201,8 +196,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <FadeUp>
-              {/* Replace with family or NICU-era photo */}
-              <div className="h-[400px] w-full rounded-lg bg-brand-blue-light" />
+              <Image
+                src="/family-nicu.jpg"
+                alt="Mike Abramowitz with his family"
+                width={600}
+                height={400}
+                className="h-[400px] w-full rounded-lg object-cover"
+              />
             </FadeUp>
 
             <FadeUp>

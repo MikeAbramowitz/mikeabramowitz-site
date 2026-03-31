@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const links = [
@@ -14,13 +15,14 @@ export default function Footer() {
     <footer className="bg-brand-dark py-12">
       <div className="mx-auto max-w-7xl px-6">
         {/* Logo */}
-        <div className="mb-8 flex items-baseline gap-1.5 font-body">
-          <span className="text-lg font-bold uppercase tracking-[0.5px] text-brand-blue">
-            MIKE
-          </span>
-          <span className="text-lg font-bold uppercase tracking-[0.5px] text-white/60">
-            ABRAMOWITZ
-          </span>
+        <div className="mb-8">
+          <Image
+            src="/logo.jpg"
+            alt="Mike Abramowitz"
+            width={200}
+            height={32}
+            className="h-8 w-auto brightness-0 invert opacity-60"
+          />
         </div>
 
         {/* Nav links */}

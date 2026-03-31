@@ -83,32 +83,13 @@ export default function SpeakingPage() {
               changes how people think about growth.
             </p>
 
-            {/* Replace with YouTube embed once Mike provides video URL */}
-            <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center rounded-xl bg-brand-dark aspect-video">
-              <button
-                type="button"
-                className="flex h-16 w-16 items-center justify-center rounded-full bg-white/20"
-                aria-label="Play sizzle reel"
-              >
-                <svg
-                  width="24"
-                  height="28"
-                  viewBox="0 0 24 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="ml-1"
-                >
-                  <path
-                    d="M24 14L0 28V0L24 14Z"
-                    fill="white"
-                    fillOpacity="0.8"
-                  />
-                </svg>
-              </button>
-              <p className="mt-4 text-sm text-white/60">
-                AOLP Keynote Sizzle Reel
-              </p>
-            </div>
+            <iframe
+              className="mx-auto mt-10 aspect-video w-full max-w-3xl rounded-xl"
+              src="https://www.youtube.com/embed/XwQEPYWkcl8"
+              title="AOLP Keynote Sizzle Reel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </FadeUp>
         </div>
       </section>

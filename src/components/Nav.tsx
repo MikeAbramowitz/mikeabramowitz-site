@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Nav() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -29,13 +30,15 @@ export default function Nav() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link href="/" className="flex items-baseline gap-1.5 font-body">
-          <span className="text-lg font-bold uppercase tracking-[0.5px] text-brand-blue">
-            MIKE
-          </span>
-          <span className="text-lg font-bold uppercase tracking-[0.5px] text-brand-charcoal">
-            ABRAMOWITZ
-          </span>
+        <Link href="/">
+          <Image
+            src="/logo.jpg"
+            alt="Mike Abramowitz"
+            width={200}
+            height={32}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop links */}

@@ -1,4 +1,5 @@
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -170,8 +171,13 @@ export default function AboutPage() {
                 room she walks into.
               </p>
 
-              {/* Replace with family or NICU-era photo */}
-              <div className="mt-10 h-[300px] w-full rounded-lg bg-brand-blue-light ring-1 ring-brand-blue/20" />
+              <Image
+                src="/family-nicu.jpg"
+                alt="Mike Abramowitz with his family"
+                width={800}
+                height={300}
+                className="mt-10 h-[300px] w-full rounded-lg object-cover"
+              />
             </div>
           </FadeUp>
         </div>
