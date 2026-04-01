@@ -1,14 +1,14 @@
 [
-  { "name": "AOLP", "description": "Keynote workshop, several hundred attendees" },
-  { "name": "Gracie Barra Leadership Conference", "description": "Keynote" },
-  { "name": "YellowTelescope", "description": "Keynote" },
-  { "name": "Vector Marketing", "description": "Keynote" },
-  { "name": "Front Row Dads", "description": "Keynote workshop" },
-  { "name": "Freedom Builders University", "description": "Keynote" },
-  { "name": "GoBundance", "description": "Keynote workshop" },
-  { "name": "USF", "description": "University keynote" },
-  { "name": "FBLA", "description": "Student organization" },
-  { "name": "NSLS", "description": "Student organization" },
-  { "name": "CBS", "description": "Media feature" },
-  { "name": "100+ Podcast Guest Appearances", "description": "" }
+  { "name": "AOLP", "logo": "/logos/aolp.png" },
+  { "name": "Gracie Barra", "logo": "/logos/gracie-barra.svg" },
+  { "name": "YellowTelescope", "logo": "/logos/yellowtelescope.jpeg" },
+  { "name": "Vector Marketing", "logo": "/logos/vector-marketing.webp" },
+  { "name": "Front Row Dads", "logo": "/logos/front-row-dads.png" },
+  { "name": "Freedom Builders University", "logo": "/logos/freedom-builders.png" },
+  { "name": "GoBundance", "logo": "/logos/gobundance.png" },
+  { "name": "USF", "logo": "/logos/usf.png" },
+  { "name": "FBLA", "logo": "/logos/fbla.svg" },
+  { "name": "NSLS", "logo": "/logos/nsls.png" },
+  { "name": "CBS", "logo": "/logos/cbs.svg" },
+  { "name": "COO Alliance", "logo": "/logos/coo-alliance.png" }
 ]

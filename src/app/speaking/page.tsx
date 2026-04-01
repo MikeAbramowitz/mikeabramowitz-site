@@ -34,22 +34,18 @@ const topics = [
 ];
 
 const engagements = [
-  { name: "AOLP", description: "Keynote workshop, several hundred attendees" },
-  {
-    name: "Gracie Barra Leadership Conference",
-    description: "Keynote, 100+ jiu-jitsu school owners",
-  },
-  { name: "YellowTelescope", description: "Keynote" },
-  { name: "Vector Marketing", description: "Keynote" },
-  { name: "Front Row Dads", description: "Keynote workshop" },
-  { name: "Freedom Builders University", description: "Keynote" },
-  { name: "GoBundance", description: "Keynote workshop" },
-  { name: "USF", description: "University speaking" },
-  { name: "FBLA", description: "Student organization" },
-  { name: "NSLS", description: "Student organization" },
-  { name: "CBS", description: "Featured appearance" },
-  { name: "COO Connect (COO Alliance)", description: "Workshop, 60 COOs in-person" },
-  { name: "100+ Podcasts", description: "Guest appearances" },
+  { name: "AOLP", logo: "/logos/aolp.png" },
+  { name: "Gracie Barra", logo: "/logos/gracie-barra.svg" },
+  { name: "YellowTelescope", logo: "/logos/yellowtelescope.jpeg" },
+  { name: "Vector Marketing", logo: "/logos/vector-marketing.webp" },
+  { name: "Front Row Dads", logo: "/logos/front-row-dads.png" },
+  { name: "Freedom Builders University", logo: "/logos/freedom-builders.png" },
+  { name: "GoBundance", logo: "/logos/gobundance.png" },
+  { name: "USF", logo: "/logos/usf.png" },
+  { name: "FBLA", logo: "/logos/fbla.svg" },
+  { name: "NSLS", logo: "/logos/nsls.png" },
+  { name: "CBS", logo: "/logos/cbs.svg" },
+  { name: "COO Alliance", logo: "/logos/coo-alliance.png" },
 ];
 
 const testimonials = [
@@ -149,16 +145,19 @@ export default function SpeakingPage() {
               Where I have spoken.
             </h2>
 
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
               {engagements.map((eng) => (
                 <div
                   key={eng.name}
-                  className="rounded-lg bg-brand-gray-100 px-6 py-4"
+                  className="flex items-center justify-center rounded-lg border border-brand-gray-200 bg-white p-6"
                 >
-                  <p className="font-semibold text-brand-dark">{eng.name}</p>
-                  <p className="text-sm text-brand-gray-400">
-                    {eng.description}
-                  </p>
+                  <Image
+                    src={eng.logo}
+                    alt={eng.name}
+                    width={160}
+                    height={80}
+                    className="h-14 w-auto object-contain grayscale transition duration-300 hover:grayscale-0"
+                  />
                 </div>
               ))}
             </div>
