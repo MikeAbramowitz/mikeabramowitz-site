@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import FadeUp from "@/components/FadeUp";
 import SocialProofBar from "@/components/SocialProofBar";
 import HelpCard from "@/components/HelpCard";
-import TestimonialCard from "@/components/TestimonialCard";
+import VideoTestimonialCard from "@/components/VideoTestimonialCard";
 import testimonials from "@/data/testimonials.json";
 
 export const metadata: Metadata = {
@@ -262,11 +262,11 @@ export default function HomePage() {
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {testimonials.map((t) => (
               <FadeUp key={t.initials}>
-                <TestimonialCard
+                <VideoTestimonialCard
+                  videoId={t.videoId}
                   quote={t.quote}
                   author={t.author}
                   title={t.title}
-                  initials={t.initials}
                 />
               </FadeUp>
             ))}

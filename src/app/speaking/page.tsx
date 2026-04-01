@@ -2,7 +2,7 @@ import FadeUp from "@/components/FadeUp";
 import Image from "next/image";
 import Link from "next/link";
 import SpeakingForm from "@/components/SpeakingForm";
-import TestimonialCard from "@/components/TestimonialCard";
+import VideoTestimonialCard from "@/components/VideoTestimonialCard";
 
 export const metadata = {
   title: "Book Mike Abramowitz to Speak",
@@ -50,18 +50,25 @@ const engagements = [
 
 const testimonials = [
   {
+    videoId: "bwGyr_Qra6M",
     quote:
-      "Placeholder for event organizer testimonial about the impact of Mike's keynote on their audience.",
-    author: "Event Organizer",
-    title: "Placeholder",
-    initials: "EO",
+      "I had my corporation work with him and have him speak to us and many of our colleagues and clients, to rave reviews. He's a phenomenal speaker but very insightful, honest, caring, and genuine. That's a combination you don't get with everybody.",
+    author: "Jon Hoffenberg",
+    title: "President, Yellow Telescope Companies",
   },
   {
+    videoId: "jMGLQ8VaMQw",
     quote:
-      "Placeholder for podcast host testimonial about Mike as a guest and the value he brought to their audience.",
-    author: "Podcast Host",
-    title: "Placeholder",
-    initials: "PH",
+      "This session has been a game-changer for GB Wear. We were able to identify the bottlenecks in our organization, strategize with the tools Mike provided, and gain a clear understanding of what we're trying to accomplish.",
+    author: "Nicole Pham",
+    title: "COO, GB Wear / Gracie Barra",
+  },
+  {
+    videoId: "PmnneRlwGJs",
+    quote:
+      "Mike is one of the most growth-oriented and giving humans I've ever met. He's inspired me for years to be at my best, and through conversations and coaching has allowed me to break through different areas that I hadn't even thought could be at a higher level.",
+    author: "Cathy Christen",
+    title: "",
   },
 ];
 
@@ -167,16 +174,19 @@ export default function SpeakingPage() {
 
       {/* ── Testimonials ── */}
       <section className="bg-brand-cream py-16">
-        <div className="mx-auto max-w-4xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
           <FadeUp>
-            <div className="grid gap-6 md:grid-cols-2">
+            <h2 className="mb-10 text-center font-heading text-[32px] leading-snug text-brand-dark">
+              What organizers and attendees say.
+            </h2>
+            <div className="grid gap-6 md:grid-cols-3">
               {testimonials.map((t) => (
-                <TestimonialCard
-                  key={t.initials}
+                <VideoTestimonialCard
+                  key={t.author}
+                  videoId={t.videoId}
                   quote={t.quote}
                   author={t.author}
                   title={t.title}
-                  initials={t.initials}
                 />
               ))}
             </div>
