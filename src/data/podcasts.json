@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-03-15",
+    "podcast": "COO Connect (COO Alliance)",
+    "host": "Cameron Herold",
+    "title": "Building a Referral Program Inside Your Company",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Live, in-person workshop for 60 COOs at the COO Alliance Connect event. Mike walked the room through the WARM Method framework, helping each second-in-command map out a referral program they could install inside their company. The session focused on systematizing warm introductions so referrals become predictable, not random."
+  },
+  {
+    "date": "2026-01-15",
+    "podcast": "AOLP Webinar",
+    "host": "AOLP",
+    "title": "Sales Process and Cold to Close Framework for Lighting Professionals",
+    "url": "",
+    "tag": "business"
+  },
+  {
+    "date": "2025-11-01",
+    "podcast": "COO Alliance (Virtual)",
+    "host": "Cameron Herold",
+    "title": "Using AI to Buy Back Time and Delegate",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Virtual workshop for the COO Alliance community. Mike introduced the Lead Domino GPT, a custom AI tool built specifically for COOs, and walked attendees through the Time Rich 6 framework: boundaries, communication guidelines, systems, playbook, team, and tech. He also debuted a COO Manual AI tool that helps second-in-commands build delegation systems faster."
+  },
+  {
     "date": "2025-10-15",
     "podcast": "Titans of the Trades",
     "host": "Ryan Englin",
@@ -14,6 +40,14 @@
     "title": "Referrals over Funnels: How We Built a 7-Figure B2B Company Without Ads",
     "url": "https://www.youtube.com/watch?v=MCaL7cduUNI",
     "tag": "referrals"
+  },
+  {
+    "date": "2025-10-01",
+    "podcast": "The Craft & Calling",
+    "host": "Christene Marie",
+    "title": "The Craft & Calling with Mike Abramowitz (Part 2)",
+    "url": "",
+    "tag": "personal development"
   },
   {
     "date": "2025-09-30",
@@ -32,11 +66,36 @@
     "tag": "business"
   },
   {
+    "date": "2025-09-03",
+    "podcast": "Executive Edge Panel",
+    "host": "",
+    "title": "Time Freedom for Leaders: How to Buy Back Your Time",
+    "url": "",
+    "tag": "business"
+  },
+  {
+    "date": "2025-08-27",
+    "podcast": "CBR Capital Mastermind",
+    "host": "Elijah Cheeks",
+    "title": "Using AI to Find Your Lead Domino",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Guest speaker at the CBR Capital Mastermind for 7 and 8-figure business owners preparing for acquisitions or exits. Mike introduced the Lead Domino framework and a custom GPT tool that helps owners identify the single highest-impact system to fix first. The audience was focused on positioning their companies for a sale or buyout, making systemization critical."
+  },
+  {
     "date": "2025-07-31",
     "podcast": "The Catalyst for the Trades Podcast",
     "host": "",
     "title": "Building Predictable Freedom: Mike Abramowitz on Systems, Scaling & Founders Mindset in the Trades",
     "url": "https://www.youtube.com/watch?v=UXvAz2HrKTo",
+    "tag": "business"
+  },
+  {
+    "date": "2025-07-18",
+    "podcast": "Wealthy Wellthy Podcast",
+    "host": "Krisstina Wise",
+    "title": "Better Than Rich with Mike Abramowitz",
+    "url": "",
     "tag": "business"
   },
   {
@@ -80,11 +139,37 @@
     "tag": "story"
   },
   {
+    "date": "2025-06-01",
+    "podcast": "The Brotherhood",
+    "host": "Joel Gandera",
+    "title": "Using AI to Find Your Lead Domino",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Virtual guest speaker session for The Brotherhood, a community of seven-figure entrepreneurs led by Joel Gandera. Mike shared his NICU story as the foundation for why systems matter, introduced the Time Rich 6 principles, and walked attendees through the Lead Domino GPT to identify the one thing in their business that, if fixed, creates the biggest ripple effect."
+  },
+  {
     "date": "2025-05-14",
     "podcast": "Ask the Expert",
     "host": "Steve Strum",
     "title": "Ask the Expert with Mike Abramowitz of Better Than Rich",
     "url": "https://cfm.buzztvnews.com/l/tOobknyhfQ",
+    "tag": "business"
+  },
+  {
+    "date": "2025-05-01",
+    "podcast": "3x Freedom Incubator",
+    "host": "Kasim Aslam",
+    "title": "Finding Your Lead Domino with AI",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Intimate virtual guest speaker session for Kasim Aslam's personal community, the 3x Freedom Incubator. Mike delivered the Lead Domino workshop, walking the group through identifying their highest-impact system using a custom AI tool. The audience was a tight group of entrepreneurs in Kasim's inner circle, separate from his Perpetual Traffic podcast audience."
+  },
+  {
+    "date": "2025-01-21",
+    "podcast": "Pod Profits Summit 2025",
+    "host": "Dustin Riechmann",
+    "title": "Pod Profits Summit",
+    "url": "",
     "tag": "business"
   },
   {
@@ -104,6 +189,14 @@
     "tag": "business"
   },
   {
+    "date": "2024-11-20",
+    "podcast": "Online Success Journey Podcast",
+    "host": "Patience Nyesigire",
+    "title": "Online Success Journey with Mike Abramowitz",
+    "url": "",
+    "tag": "business"
+  },
+  {
     "date": "2024-10-18",
     "podcast": "SFN Dad to Dad Podcast",
     "host": "David Hirsh",
@@ -120,6 +213,24 @@
     "tag": "business"
   },
   {
+    "date": "2024-09-18",
+    "podcast": "Paul Thompson Community",
+    "host": "Paul Thompson",
+    "title": "Smart Delegation with AI and Virtual Assistants for Real Estate Investors",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Workshop for Paul Thompson's community of real estate investors on smart delegation using AI and virtual assistants. Mike taught attendees how to simplify tasks for delegation, create playbooks that offshore VAs can follow, and implement an ATB (Avatar, Tone, and Brand) guide so virtual assistants can write, manage inboxes, and handle cold outreach while representing the company's voice accurately."
+  },
+  {
+    "date": "2024-08-27",
+    "podcast": "Champion Development",
+    "host": "Mike Chu",
+    "title": "Building and Selling a High-Ticket Offer",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Interview-style session with Mike's mentor Mike Chu for the Champion Development community. Mike broke down how he structured, launched, and sold a high-ticket offer inside Better Than Rich that generated approximately $750,000 in revenue from roughly 12 clients. He covered offer design, sales process, and building a business model around premium pricing."
+  },
+  {
     "date": "2024-07-15",
     "podcast": "Selling with Love Podcast",
     "host": "Jason Marc Campbell",
@@ -128,11 +239,27 @@
     "tag": "business"
   },
   {
+    "date": "2024-07-11",
+    "podcast": "Stroke It Podcast",
+    "host": "Jenny Alday Townsend",
+    "title": "Stroke It Podcast with Mike Abramowitz",
+    "url": "",
+    "tag": "personal development"
+  },
+  {
     "date": "2024-07-01",
     "podcast": "Entrenation Podcast",
     "host": "Jeff",
     "title": "Escape the Rat Race: 6 Shocking Principles to Achieve Time Freedom",
     "url": "https://open.spotify.com/episode/6WFdnUP3LCWkUaawjXjqVN?si=a5SliZyzTICq4KXgfaRqtw",
+    "tag": "business"
+  },
+  {
+    "date": "2024-07-01",
+    "podcast": "Sales Maven Podcast",
+    "host": "",
+    "title": "Sales Maven Podcast Interview",
+    "url": "",
     "tag": "business"
   },
   {
@@ -144,12 +271,29 @@
     "tag": "business"
   },
   {
+    "date": "2024-06-25",
+    "podcast": "Real Power Family Radio Show",
+    "host": "Eric M. Wohl",
+    "title": "Real Power Family Radio Show with Mike Abramowitz",
+    "url": "",
+    "tag": "personal development"
+  },
+  {
     "date": "2024-06-21",
     "podcast": "Elite Publishing Podcast",
     "host": "Melanie Johnson and Jenn Foster",
     "title": "Self-Publishing, Time Management, and Motivation",
     "url": "https://podcasts.apple.com/us/podcast/self-publishing-time-management-and-motivation-with/id1648178305?i=1000659683630",
     "tag": "personal development"
+  },
+  {
+    "date": "2024-06-19",
+    "podcast": "GoBundance Women (Cathy Christen)",
+    "host": "Cathy Christen",
+    "title": "Leveraging AI to Buy Back Time",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Live workshop for the GoBundance Women's chapter, an audience of 7-figure+ entrepreneurial women. Mike introduced the Lead Domino GPT and the Time Rich 6 framework, helping attendees identify which of the six areas (boundaries, communication guidelines, systems, playbook, team, tech) holds their biggest bottleneck and how AI can accelerate the fix."
   },
   {
     "date": "2024-06-05",
@@ -166,6 +310,15 @@
     "title": "How to Delegate Effectively and Build a Time-Rich Business",
     "url": "https://open.spotify.com/episode/6WFdnUP3LCWkUaawjXjqVN?si=E_aiU9mETU6FzEynX1humQ",
     "tag": "business"
+  },
+  {
+    "date": "2024-06-01",
+    "podcast": "Savvi Community",
+    "host": "Challen",
+    "title": "Buy Back Time with Systems",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Virtual guest workshop for the Savvi community on buying back time through business systems. Mike shared the Time Rich 6 framework and walked attendees through practical steps for installing delegation infrastructure, with a focus on creating simple, repeatable systems that allow the business to operate without the owner being involved in every decision."
   },
   {
     "date": "2024-05-20",
@@ -232,6 +385,15 @@
     "tag": "business"
   },
   {
+    "date": "2024-05-01",
+    "podcast": "Front Row Dads",
+    "host": "Jon Vroman",
+    "title": "Buy Back Time with Predictable Systems and Delegation",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Workshop for the Front Row Dads community of entrepreneurial fathers. Mike shared the Time Rich 6 framework with a focus on smart delegation using AI and virtual assistants. The session was tailored for dads running businesses who want to buy back time not just for business growth, but to be more present with their families."
+  },
+  {
     "date": "2024-04-29",
     "podcast": "Profitable Writer Podcast",
     "host": "Kent Sanders",
@@ -280,6 +442,15 @@
     "tag": "business"
   },
   {
+    "date": "2024-04-01",
+    "podcast": "Unstuck Yourself Virtual Summit",
+    "host": "Hollie O'Brien",
+    "title": "Delegation Using AI",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Virtual summit appearance hosted by Hollie O'Brien. Mike presented on delegation using AI tools, helping attendees understand how to offload tasks systematically and use artificial intelligence to accelerate the delegation process. The summit brought together speakers across personal development and business growth."
+  },
+  {
     "date": "2024-03-30",
     "podcast": "Lunch with Norm Podcast",
     "host": "Norman Farrar",
@@ -320,6 +491,14 @@
     "tag": "business"
   },
   {
+    "date": "2024-03-07",
+    "podcast": "Rising Tide Startups Podcast",
+    "host": "Kevin (Podbrand Media)",
+    "title": "Rising Tide Startups with Mike Abramowitz",
+    "url": "",
+    "tag": "business"
+  },
+  {
     "date": "2024-03-01",
     "podcast": "Break It Down Show (BIDS)",
     "host": "Pete A Turner",
@@ -344,6 +523,15 @@
     "tag": "business"
   },
   {
+    "date": "2024-03-01",
+    "podcast": "REI Networking Event, Jacksonville",
+    "host": "",
+    "title": "The Simplicity of Delegation with Virtual Assistants",
+    "url": "",
+    "tag": "workshop",
+    "recap": "In-person presentation for a group of real estate investors in Jacksonville, many of whom had never used a virtual assistant before. Mike walked attendees through a hands-on activity to calculate their target dollar-per-hour rate and identify every task below that rate that could be delegated. He covered how to create a simple playbook an offshore VA can follow, making delegation accessible for first-time delegators."
+  },
+  {
     "date": "2024-02-29",
     "podcast": "Crazy Sh*t in Real Estate",
     "host": "Leigh Brown",
@@ -365,6 +553,14 @@
     "host": "Cory Carlson",
     "title": "How to live Better Than Rich",
     "url": "https://open.spotify.com/episode/3siv9azQNQckqaqb3LmbLi?si=xDt2b1iuRS2wuhRIeRTn4g",
+    "tag": "personal development"
+  },
+  {
+    "date": "2024-02-20",
+    "podcast": "7-Figure Leap Podcast",
+    "host": "Dustin Riechmann",
+    "title": "7-Figure Leap with Mike Abramowitz",
+    "url": "",
     "tag": "personal development"
   },
   {
@@ -400,11 +596,35 @@
     "tag": "business"
   },
   {
+    "date": "2024-01-15",
+    "podcast": "Going North Podcast",
+    "host": "Dom Brightmon",
+    "title": "Going North with Mike Abramowitz",
+    "url": "",
+    "tag": "personal development"
+  },
+  {
     "date": "2024-01-10",
     "podcast": "Conscious Millionaire",
     "host": "JV Crum III",
     "title": "Unlocking Business Efficiency with AI",
     "url": "https://open.spotify.com/episode/0iz6UM7JaHd0OgGMeIoz3A?si=Zcgp1YRyTL-OiqfHFhNW9w",
+    "tag": "business"
+  },
+  {
+    "date": "2024-01-10",
+    "podcast": "Childfree Wealth Podcast",
+    "host": "",
+    "title": "Childfree Wealth with Mike Abramowitz",
+    "url": "",
+    "tag": "business"
+  },
+  {
+    "date": "2024-01-05",
+    "podcast": "Real Estate Rundown",
+    "host": "Shannon Robnett",
+    "title": "Real Estate Rundown with Mike Abramowitz",
+    "url": "",
     "tag": "business"
   },
   {
@@ -421,6 +641,14 @@
     "host": "Scott Carson",
     "title": "Automate, Delegate & Systemize Your Way to Success",
     "url": "https://open.spotify.com/episode/1HLVugPuILGLBC0rO3TZuC?si=5Ih9elWPQDakdArgl7LTqg",
+    "tag": "business"
+  },
+  {
+    "date": "2023-12-06",
+    "podcast": "Leading Peers",
+    "host": "",
+    "title": "Leading Peers with Mike Abramowitz",
+    "url": "",
     "tag": "business"
   },
   {
@@ -470,6 +698,15 @@
     "title": "Resilience in Crisis: Business Success and Family Challenges",
     "url": "https://open.spotify.com/episode/77QExh8mVVyiFbfI6WVqY6?si=sXmgVVJ4QzGj_h7G4HeByw&nd=1&dlsi=7945145f1dde4dde",
     "tag": "story"
+  },
+  {
+    "date": "2023-10-01",
+    "podcast": "Gracie Barra Leadership Conference",
+    "host": "Gracie Barra",
+    "title": "Creating a Recruiting Culture Based on Relationships",
+    "url": "",
+    "tag": "workshop",
+    "recap": "Main stage keynote at the Gracie Barra Leadership Conference (LeaderCon) in Phoenix for over 100 jiu-jitsu school owners, all black belts. Mike drew from his 20 years of sales leadership to help attendees install upgraded recruiting methods and sales processes to grow their schools and increase revenue. The talk focused on building a culture where recruiting happens through relationships, not just marketing, and gave practical frameworks the owners could implement immediately."
   },
   {
     "date": "2023-09-23",

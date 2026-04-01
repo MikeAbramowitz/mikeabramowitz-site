@@ -19,9 +19,9 @@ export default function PodcastMediaPage() {
               Podcast and media.
             </h1>
             <p className="mt-4 text-[17px] leading-relaxed text-brand-gray-600">
-              Over 100 guest appearances, keynote highlights, and press
-              features. Hours of free content on business growth, relationships,
-              systems, and my story.
+              Over 100 guest appearances, keynotes, and workshops. Hours of
+              free content on business growth, relationships, systems, and my
+              story.
             </p>
           </div>
         </section>

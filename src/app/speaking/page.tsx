@@ -36,7 +36,7 @@ const engagements = [
   { name: "AOLP", description: "Keynote workshop, several hundred attendees" },
   {
     name: "Gracie Barra Leadership Conference",
-    description: "Keynote",
+    description: "Keynote, 100+ jiu-jitsu school owners",
   },
   { name: "YellowTelescope", description: "Keynote" },
   { name: "Vector Marketing", description: "Keynote" },
@@ -47,6 +47,7 @@ const engagements = [
   { name: "FBLA", description: "Student organization" },
   { name: "NSLS", description: "Student organization" },
   { name: "CBS", description: "Featured appearance" },
+  { name: "COO Connect (COO Alliance)", description: "Workshop, 60 COOs in-person" },
   { name: "100+ Podcasts", description: "Guest appearances" },
 ];
 

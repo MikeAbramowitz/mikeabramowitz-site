@@ -9,13 +9,15 @@ interface PodcastEntry {
   title: string;
   url: string;
   tag: string;
+  recap?: string;
 }
 
-const TAGS = ["All", "Business", "Referrals", "Personal Development", "Story"];
+const TAGS = ["All", "Business", "Referrals", "Personal Development", "Story", "Workshop"];
 
 export default function PodcastGrid({ podcasts }: { podcasts: PodcastEntry[] }) {
   const [search, setSearch] = useState("");
   const [activeTag, setActiveTag] = useState("All");
+  const [expandedRecaps, setExpandedRecaps] = useState<Set<number>>(new Set());
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -35,8 +37,19 @@ export default function PodcastGrid({ podcasts }: { podcasts: PodcastEntry[] }) 
       .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   }, [podcasts, search, activeTag]);
 
+  const toggleRecap = (index: number) => {
+    setExpandedRecaps((prev) => {
+      const next = new Set(prev);
+      if (next.has(index)) {
+        next.delete(index);
+      } else {
+        next.add(index);
+      }
+      return next;
+    });
+  };
+
   const formatDate = (dateStr: string) => {
-    // Handle partial dates like "2022-06" or "2022-01"
     const parts = dateStr.split("-");
     if (parts.length === 2) {
       const d = new Date(`${parts[0]}-${parts[1]}-01T00:00:00`);
@@ -56,6 +69,8 @@ export default function PodcastGrid({ podcasts }: { podcasts: PodcastEntry[] }) 
         return "bg-green-50 text-green-700";
       case "story":
         return "bg-rose-50 text-rose-700";
+      case "workshop":
+        return "bg-purple-50 text-purple-700";
       default:
         return "bg-brand-gray-100 text-brand-gray-600";
     }
@@ -131,12 +146,22 @@ export default function PodcastGrid({ podcasts }: { podcasts: PodcastEntry[] }) 
                 >
                   Listen
                 </a>
-              ) : (
-                <span className="text-[12px] text-brand-gray-400">
-                  Link coming soon
-                </span>
-              )}
+              ) : p.recap ? (
+                <button
+                  onClick={() => toggleRecap(i)}
+                  className="text-sm font-semibold text-brand-blue transition-colors hover:text-brand-blue-dark"
+                >
+                  {expandedRecaps.has(i) ? "Hide Recap" : "View Recap"}
+                </button>
+              ) : null}
             </div>
+            {p.recap && expandedRecaps.has(i) && (
+              <div className="mt-4 rounded-md bg-brand-gray-100 p-4">
+                <p className="text-[13px] leading-relaxed text-brand-gray-600">
+                  {p.recap}
+                </p>
+              </div>
+            )}
           </div>
         ))}
       </div>
