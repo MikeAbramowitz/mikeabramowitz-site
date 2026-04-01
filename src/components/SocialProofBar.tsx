@@ -5,47 +5,32 @@ const logos = [
   { src: "/logos/coo-alliance.png", alt: "COO Alliance", width: 160, height: 40 },
   { src: "/logos/front-row-dads.png", alt: "Front Row Dads", width: 120, height: 50 },
   { src: "/logos/gobundance.png", alt: "GoBundance", width: 140, height: 40 },
-  { src: "/logos/aolp.png", alt: "AOLP", width: 120, height: 50 },
-  { src: "/logos/gracie-barra.svg", alt: "Gracie Barra", width: 50, height: 50 },
+  { src: "/logos/aolp.png", alt: "AOLP", width: 160, height: 66 },
+  { src: "/logos/gracie-barra.svg", alt: "Gracie Barra", width: 100, height: 100 },
   { src: "/logos/nsls.png", alt: "NSLS", width: 160, height: 46 },
-  { src: "/logos/fbla.svg", alt: "FBLA", width: 60, height: 50 },
+  { src: "/logos/fbla.svg", alt: "FBLA", width: 100, height: 80 },
   { src: "/logos/spc.png", alt: "Saint Petersburg College", width: 140, height: 36 },
-];
-
-const textLogos = [
-  "USF",
-  "Vector Marketing",
-  "YellowTelescope",
-  "The Brotherhood",
+  { src: "/logos/usf.png", alt: "USF", width: 120, height: 60 },
+  { src: "/logos/vector-marketing.webp", alt: "Vector Marketing", width: 160, height: 50 },
+  { src: "/logos/yellowtelescope.jpeg", alt: "YellowTelescope", width: 160, height: 44 },
+  { src: "/logos/brotherhood.webp", alt: "The Brotherhood", width: 60, height: 60 },
 ];
 
 export default function SocialProofBar() {
-  const allItems = [
-    ...logos.map((logo) => (
-      <div
-        key={logo.alt}
-        className="flex h-12 shrink-0 items-center px-8"
-      >
-        <Image
-          src={logo.src}
-          alt={logo.alt}
-          width={logo.width}
-          height={logo.height}
-          className="h-8 w-auto object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
-        />
-      </div>
-    )),
-    ...textLogos.map((name) => (
-      <div
-        key={name}
-        className="flex h-12 shrink-0 items-center px-8"
-      >
-        <span className="whitespace-nowrap text-[14px] font-bold uppercase tracking-wider text-brand-gray-400 transition-colors duration-300 hover:text-brand-dark">
-          {name}
-        </span>
-      </div>
-    )),
-  ];
+  const items = logos.map((logo) => (
+    <div
+      key={logo.alt}
+      className="flex h-14 shrink-0 items-center px-8"
+    >
+      <Image
+        src={logo.src}
+        alt={logo.alt}
+        width={logo.width}
+        height={logo.height}
+        className="h-10 w-auto max-w-[160px] object-contain opacity-50 grayscale transition-all duration-300 hover:opacity-100 hover:grayscale-0"
+      />
+    </div>
+  ));
 
   return (
     <section className="border-y border-brand-gray-200 bg-brand-gray-100 py-6 overflow-hidden">
@@ -59,8 +44,8 @@ export default function SocialProofBar() {
 
         {/* Scrolling track: duplicate items for seamless loop */}
         <div className="logo-scroll flex w-max items-center">
-          {allItems}
-          {allItems}
+          {items}
+          {items}
         </div>
       </div>
     </section>
