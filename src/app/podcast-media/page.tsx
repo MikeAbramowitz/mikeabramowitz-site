@@ -1,4 +1,5 @@
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import PodcastGrid from "@/components/PodcastGrid";
 import podcasts from "@/data/podcasts.json";
 
@@ -23,6 +24,52 @@ export default function PodcastMediaPage() {
               free content on business growth, relationships, systems, and my
               story.
             </p>
+          </div>
+        </section>
+      </FadeUp>
+
+      {/* Event Photos */}
+      <FadeUp>
+        <section className="pb-10">
+          <div className="mx-auto max-w-4xl px-6">
+            <div className="grid gap-6 sm:grid-cols-3">
+              <div>
+                <Image
+                  src="/photos/william-hung-podfest.jpg"
+                  alt="With William Hung at PodFest"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  With William Hung at PodFest
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/photos/jordan-peterson-night.jpg"
+                  alt="With Chris Krimitsos and Scott Gass heading to see Jordan Peterson"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  With Chris Krimitsos and Scott Gass heading to see Jordan Peterson live
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/photos/igor-trninic-vancouver.jpg"
+                  alt="With Igor Trninic in Vancouver"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  Grabbing drinks in Vancouver with Igor Trninic
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </FadeUp>

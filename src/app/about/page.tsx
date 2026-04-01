@@ -130,6 +130,19 @@ export default function AboutPage() {
               Destiny graduate. Community building is in my DNA.
             </p>
 
+            <div className="mx-auto mt-10 max-w-md">
+              <Image
+                src="/photos/nick-santonastasso-eo-tampa.jpg"
+                alt="With Nick Santonastasso and Chris Krimitsos at an EO event in Tampa"
+                width={500}
+                height={375}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                With Nick Santonastasso and Chris Krimitsos at an EO event in Tampa
+              </p>
+            </div>
+
             <iframe
               className="mt-10 aspect-video w-full rounded-xl"
               src="https://www.youtube.com/embed/ckuNkHXi55k"
@@ -162,6 +175,53 @@ export default function AboutPage() {
               I have spoken at USF, FBLA, NSLS, and other universities and
               student organizations.
             </p>
+
+            <div className="mt-10 grid gap-6 sm:grid-cols-2">
+              <div>
+                <Image
+                  src="/photos/james-altucher.jpg"
+                  alt="With James Altucher"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  With James Altucher before his standup comedy show
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/photos/john-ruhlin-workshop.jpg"
+                  alt="With John Ruhlin after a workshop"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  With John Ruhlin after a workshop
+                </p>
+              </div>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
+      {/* ── Network Photo ── */}
+      <section className="bg-white py-10">
+        <div className="mx-auto max-w-3xl px-6">
+          <FadeUp>
+            <div className="mx-auto max-w-md">
+              <Image
+                src="/photos/ben-greenfield-cameron-alps.jpg"
+                alt="With Ben Greenfield and Cameron Herold in the Alps"
+                width={500}
+                height={375}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                With Ben Greenfield and Cameron Herold in the Alps
+              </p>
+            </div>
           </FadeUp>
         </div>
       </section>
@@ -255,6 +315,35 @@ export default function AboutPage() {
             />
           </FadeUp>
           </div>
+
+          <FadeUp>
+            <div className="mt-12 grid gap-6 sm:grid-cols-2">
+              <div>
+                <Image
+                  src="/photos/group-dinner-front-row-dads.jpg"
+                  alt="Dinner with Justin Donald, Matt Drinkhahn, Matt Ticknor, and PJ Atherton"
+                  width={600}
+                  height={400}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  With Justin Donald, Matt Drinkhahn, Matt Ticknor, and PJ Atherton
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/photos/ryan-moran-san-antonio.jpg"
+                  alt="With Ryan Moran in San Antonio"
+                  width={600}
+                  height={400}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  Grabbing coffee with Ryan Moran in San Antonio
+                </p>
+              </div>
+            </div>
+          </FadeUp>
         </div>
       </section>
     </main>

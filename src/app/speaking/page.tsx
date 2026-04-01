@@ -144,8 +144,42 @@ export default function SpeakingPage() {
         </div>
       </section>
 
+      {/* ── Stage Photos ── */}
+      <section className="bg-white pt-20 pb-10">
+        <div className="mx-auto max-w-5xl px-6">
+          <FadeUp>
+            <div>
+              <Image
+                src="/photos/warm-method-stage.jpg"
+                alt="Presenting The WARM Method at COO Alliance"
+                width={1200}
+                height={675}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                Presenting The WARM Method at COO Alliance with Stuart Nadeau
+              </p>
+            </div>
+          </FadeUp>
+          <FadeUp>
+            <div className="mx-auto mt-8 max-w-sm">
+              <Image
+                src="/photos/alex-cafe-dantas-gracie-barra.jpg"
+                alt="With Alexandre Cafe Dantas at Gracie Barra"
+                width={500}
+                height={500}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                With Alexandre "Cafe" Dantas before taking the stage at the Gracie Barra Leadership Conference
+              </p>
+            </div>
+          </FadeUp>
+        </div>
+      </section>
+
       {/* ── Notable Engagements ── */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-10">
         <div className="mx-auto max-w-5xl px-6">
           <FadeUp>
             <h2 className="mb-10 text-center font-heading text-[32px] leading-snug text-brand-dark">

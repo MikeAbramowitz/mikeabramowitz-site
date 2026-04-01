@@ -70,6 +70,18 @@ export default function WorkWithMePage() {
             <p className="mt-6 text-sm font-semibold text-brand-dark">
               Current client: COO Alliance with Cameron Herold.
             </p>
+            <div className="mx-auto mt-8 max-w-sm">
+              <Image
+                src="/photos/cameron-herold-whistler.jpg"
+                alt="With Cameron Herold in Whistler"
+                width={500}
+                height={375}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                Skiing in Whistler with Cameron Herold, Founder of COO Alliance
+              </p>
+            </div>
             <div className="mt-6">
               <Link
                 href="/contact"
@@ -145,6 +157,18 @@ export default function WorkWithMePage() {
                 Explore a Rev Share Partnership
               </Link>
             </div>
+            <div className="mx-auto mt-8 max-w-sm">
+              <Image
+                src="/photos/jay-owen-palencia.jpg"
+                alt="At Jay Owen's office in Palencia"
+                width={500}
+                height={375}
+                className="w-full rounded-lg object-cover"
+              />
+              <p className="mt-2 text-sm text-gray-500">
+                Dropping by Jay Owen's office in Palencia
+              </p>
+            </div>
           </FadeUp>
         </div>
       </section>
@@ -203,6 +227,32 @@ export default function WorkWithMePage() {
               >
                 Apply for Coaching
               </Link>
+            </div>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2">
+              <div>
+                <Image
+                  src="/photos/jaguars-game-clients.jpg"
+                  alt="Box seats with clients at a Jaguars game"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  Box seats with clients at a Jaguars game
+                </p>
+              </div>
+              <div>
+                <Image
+                  src="/photos/connor-boyack-slc.jpg"
+                  alt="With Connor Boyack in Salt Lake City"
+                  width={500}
+                  height={375}
+                  className="w-full rounded-lg object-cover"
+                />
+                <p className="mt-2 text-sm text-gray-500">
+                  Visiting Connor Boyack's headquarters in Salt Lake City
+                </p>
+              </div>
             </div>
           </FadeUp>
         </div>
