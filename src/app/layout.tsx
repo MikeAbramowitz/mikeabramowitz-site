@@ -21,15 +21,21 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: "Mike Abramowitz | Relationships, Systems, Results",
   description:
-    "I help businesses grow through relationships and systems. 20+ years building sales organizations, launching communities, and helping business owners create predictable growth.",
+    "I help businesses grow through relationships and systems. Speaker, author, coach, and co-founder of the WARM Method.",
   openGraph: {
     title: "Mike Abramowitz | Relationships, Systems, Results",
     description:
-      "I help businesses grow through relationships and systems. 20+ years building sales organizations, launching communities, and helping business owners create predictable growth.",
+      "I help businesses grow through relationships and systems. Speaker, author, coach, and co-founder of the WARM Method.",
     type: "website",
     url: "https://mikeabramowitz.com",
-    /* Replace with Mike's OG image (1200x630) */
-    // images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mike Abramowitz | Relationships, Systems, Results",
+    description:
+      "I help businesses grow through relationships and systems. Speaker, author, coach, and co-founder of the WARM Method.",
+    images: ["/og-image.png"],
   },
 };
 
