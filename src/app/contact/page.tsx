@@ -60,28 +60,36 @@ export default function ContactPage() {
             {/* Replace href values with Mike's actual social media profile URLs */}
             <div className="flex items-center justify-center gap-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mikeabramowitz1/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm font-semibold text-brand-blue transition hover:text-brand-blue-dark"
               >
                 LinkedIn
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/mikeabramowitz/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm font-semibold text-brand-blue transition hover:text-brand-blue-dark"
               >
                 Instagram
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/mike.abramowitz.9"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm font-semibold text-brand-blue transition hover:text-brand-blue-dark"
               >
                 Facebook
               </a>
               <a
-                href="#"
+                href="https://x.com/mikeabramowitz"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm font-semibold text-brand-blue transition hover:text-brand-blue-dark"
               >
-                Twitter/X
+                X
               </a>
             </div>
           </div>
