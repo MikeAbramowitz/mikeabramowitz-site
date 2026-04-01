@@ -123,10 +123,11 @@ export default function PodcastMediaPage() {
                   High-resolution photos for press and event promotion.
                 </p>
                 <a
-                  href="#"
+                  href="/downloads/headshots.zip"
+                  download
                   className="text-sm font-semibold text-brand-blue transition-colors hover:text-brand-blue-dark"
                 >
-                  Download
+                  Download ZIP
                 </a>
               </div>
 
@@ -157,10 +158,11 @@ export default function PodcastMediaPage() {
                   Short, medium, and long versions ready to use.
                 </p>
                 <a
-                  href="#"
+                  href="/downloads/mike-abramowitz-bio.pdf"
+                  download
                   className="text-sm font-semibold text-brand-blue transition-colors hover:text-brand-blue-dark"
                 >
-                  Download
+                  Download PDF
                 </a>
               </div>
 
@@ -188,10 +190,11 @@ export default function PodcastMediaPage() {
                   PDF overview of topics, credentials, and testimonials.
                 </p>
                 <a
-                  href="#"
+                  href="/media-kit.pdf"
+                  download
                   className="text-sm font-semibold text-brand-blue transition-colors hover:text-brand-blue-dark"
                 >
-                  Download
+                  Download PDF
                 </a>
               </div>
 
@@ -218,10 +221,11 @@ export default function PodcastMediaPage() {
                   Suggested questions for podcast hosts and journalists.
                 </p>
                 <a
-                  href="#"
+                  href="/downloads/mike-abramowitz-interview-questions.pdf"
+                  download
                   className="text-sm font-semibold text-brand-blue transition-colors hover:text-brand-blue-dark"
                 >
-                  Download
+                  Download PDF
                 </a>
               </div>
             </div>
