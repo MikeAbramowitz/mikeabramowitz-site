@@ -1,4 +1,5 @@
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import Link from "next/link";
 import books from "@/data/books.json";
 
@@ -35,48 +36,43 @@ export default function BooksPage() {
 
       {/* ── Books Grid ── */}
       <section className="py-16">
-        <div className="mx-auto max-w-5xl px-6">
+        <div className="mx-auto max-w-6xl px-6">
           <FadeUp>
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {(books as Book[]).map((book) => (
                 <div
                   key={book.title}
                   className="overflow-hidden rounded-lg border border-brand-gray-200 bg-white"
                 >
-                  {/* Replace with book cover image */}
-                  <div className="flex aspect-[2/3] w-full items-center justify-center bg-brand-gray-100">
-                    <div className="flex flex-col items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-12 w-12 text-brand-gray-400"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={1.5}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
-                        />
-                      </svg>
+                  {book.coverImage ? (
+                    <Image
+                      src={book.coverImage}
+                      alt={book.title}
+                      width={400}
+                      height={600}
+                      className="w-full object-cover"
+                    />
+                  ) : (
+                    <div className="flex aspect-[2/3] w-full items-center justify-center bg-brand-gray-100">
                       <span className="text-sm text-brand-gray-400">
                         Cover Image
                       </span>
                     </div>
-                  </div>
+                  )}
 
                   <div className="p-6">
-                    <h2 className="font-heading text-xl text-brand-dark">
+                    <h2 className="font-heading text-lg text-brand-dark">
                       {book.title}
                     </h2>
-                    <p className="mb-4 mt-2 text-[15px] leading-relaxed text-brand-gray-600">
+                    <p className="mb-4 mt-2 text-[14px] leading-relaxed text-brand-gray-600">
                       {book.description}
                     </p>
                     {book.purchaseUrl ? (
                       <Link
                         href={book.purchaseUrl}
-                        className="inline-block rounded-md bg-brand-blue px-6 py-2.5 text-sm text-white transition-opacity hover:opacity-90"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block rounded-md bg-brand-blue px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
                       >
                         Get the Book
                       </Link>

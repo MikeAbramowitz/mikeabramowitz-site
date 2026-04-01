@@ -1,26 +1,56 @@
 [
   {
     "title": "GRAB Tomorrow: Your Best Year Ever",
-    "description": "The original GRAB Tomorrow book introducing the framework and the T.A.D. (Tiny Actions Daily) philosophy for building your best year through small, consistent actions.",
-    "coverImage": "",
-    "purchaseUrl": ""
+    "description": "The original GRAB Tomorrow book introducing the T.A.D. (Tiny Actions Daily) philosophy for building your best year through small, consistent actions.",
+    "coverImage": "/book-grab-tomorrow.png",
+    "purchaseUrl": "https://amzn.to/3py3r1k"
+  },
+  {
+    "title": "Real Stories Real People",
+    "description": "A collection of motivating narratives covering various life experiences, offering perspective and inspiration for personal transformation.",
+    "coverImage": "/book-real-stories.png",
+    "purchaseUrl": "https://amzn.to/2Yp37X1"
+  },
+  {
+    "title": "Stories of Lessons Learned from Death",
+    "description": "The death of a loved one can be a turning point that alters our perspective on life. This book offers guidance in finding the gift when dealing with death.",
+    "coverImage": "/book-stories-death.png",
+    "purchaseUrl": "https://amzn.to/3pvvi2t"
+  },
+  {
+    "title": "Stories of Weight Loss",
+    "description": "Real stories from real people who transformed their health and their lives through consistent action and commitment.",
+    "coverImage": "/book-stories-weight-loss.png",
+    "purchaseUrl": "https://amzn.to/3orlJAh"
+  },
+  {
+    "title": "Stories of Strong Independent Single Moms",
+    "description": "An anthology designed to inspire and encourage single mothers through shared stories and experiences.",
+    "coverImage": "/book-stories-single-moms.png",
+    "purchaseUrl": "https://www.amazon.com/dp/1977803261/"
+  },
+  {
+    "title": "Stories of Redefining Life Experiences",
+    "description": "Stories from people who faced defining moments and chose to redefine what was possible for their lives.",
+    "coverImage": "/book-stories-life.png",
+    "purchaseUrl": "https://amzn.to/2MwAzYR"
+  },
+  {
+    "title": "A Guide to Unlock Your Story",
+    "description": "Contains 21 inspiring stories with reflection questions to help you discover, write, and share the story that matters most.",
+    "coverImage": "/book-unlock-story.png",
+    "purchaseUrl": "https://www.amazon.com/dp/1544025912"
   },
   {
     "title": "GRAB Your Thoughts: A Guided Journal to Capture Moments",
-    "description": "A guided journal companion to the GRAB Tomorrow philosophy. Designed to help you capture moments, track progress, and stay consistent.",
-    "coverImage": "",
-    "purchaseUrl": ""
+    "description": "A guided journal companion to the GRAB Tomorrow philosophy. Designed to help you capture moments from past, present, and future.",
+    "coverImage": "/book-grab-thoughts.png",
+    "purchaseUrl": "https://www.amazon.com/GRAB-Your-Thoughts-Journal-Capture/dp/1535083182/"
   },
   {
-    "title": "Placeholder Book Title 3",
-    "description": "Mike: update this title and description with your actual book details.",
-    "coverImage": "",
-    "purchaseUrl": ""
-  },
-  {
-    "title": "Placeholder Book Title 4",
-    "description": "Mike: update this title and description with your actual book details.",
-    "coverImage": "",
+    "title": "GRAB Your Time: A Monthly and Weekly Planner",
+    "description": "A planner built around the T.A.D. philosophy to help you organize your months and weeks with intention and consistency.",
+    "coverImage": "/book-grab-time.png",
     "purchaseUrl": ""
   }
 ]
