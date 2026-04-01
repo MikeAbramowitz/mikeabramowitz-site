@@ -1,6 +1,7 @@
 import FadeUp from "@/components/FadeUp";
 import Image from "next/image";
 import Link from "next/link";
+import StoryTimeline from "@/components/StoryTimeline";
 
 export const metadata = {
   title: "About Mike Abramowitz | The Full Story",
@@ -25,6 +26,13 @@ export default function AboutPage() {
             </p>
           </FadeUp>
         </div>
+      </section>
+
+      {/* ── Story Timeline ── */}
+      <section className="bg-brand-cream py-12">
+        <FadeUp>
+          <StoryTimeline />
+        </FadeUp>
       </section>
 
       {/* ── The Early Years ── */}
