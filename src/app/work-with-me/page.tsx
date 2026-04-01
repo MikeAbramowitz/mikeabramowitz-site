@@ -1,4 +1,5 @@
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -12,17 +13,28 @@ export default function WorkWithMePage() {
     <main>
       {/* ── Hero ── */}
       <section className="bg-white py-20 md:py-28">
-        <div className="mx-auto max-w-3xl px-6">
-          <FadeUp>
-            <h1 className="font-heading text-[32px] leading-tight text-brand-dark md:text-[46px]">
-              Work with me.
-            </h1>
-            <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-brand-gray-600">
-              Three ways to partner, depending on what you need. Every
-              engagement is built on the same foundation: warm relationships,
-              real systems, and results you can measure.
-            </p>
-          </FadeUp>
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <FadeUp>
+              <h1 className="font-heading text-[32px] leading-tight text-brand-dark md:text-[46px]">
+                Work with me.
+              </h1>
+              <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-brand-gray-600">
+                Three ways to partner, depending on what you need. Every
+                engagement is built on the same foundation: warm relationships,
+                real systems, and results you can measure.
+              </p>
+            </FadeUp>
+            <FadeUp>
+              <Image
+                src="/mike-chair.png"
+                alt="Mike Abramowitz reading GRAB Tomorrow"
+                width={400}
+                height={560}
+                className="mx-auto max-h-[500px] w-auto object-contain"
+              />
+            </FadeUp>
+          </div>
         </div>
       </section>
 

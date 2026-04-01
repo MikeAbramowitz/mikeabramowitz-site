@@ -1,4 +1,5 @@
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import Link from "next/link";
 import SpeakingForm from "@/components/SpeakingForm";
 import TestimonialCard from "@/components/TestimonialCard";
@@ -73,17 +74,30 @@ export default function SpeakingPage() {
     <main>
       {/* ── Hero ── */}
       <section className="bg-white py-20">
-        <div className="mx-auto max-w-4xl px-6">
-          <FadeUp>
-            <h1 className="font-heading text-[46px] leading-tight text-brand-dark">
-              Book me to speak.
-            </h1>
-            <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-brand-gray-600">
-              Keynotes, workshops, and podcast guest appearances. I bring a mix
-              of business strategy and personal story that moves rooms and
-              changes how people think about growth.
-            </p>
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <FadeUp>
+              <h1 className="font-heading text-[46px] leading-tight text-brand-dark">
+                Book me to speak.
+              </h1>
+              <p className="mt-6 text-[17px] leading-relaxed text-brand-gray-600">
+                Keynotes, workshops, and podcast guest appearances. I bring a mix
+                of business strategy and personal story that moves rooms and
+                changes how people think about growth.
+              </p>
+            </FadeUp>
+            <FadeUp>
+              <Image
+                src="/mike-speaking-1.png"
+                alt="Mike Abramowitz speaking"
+                width={460}
+                height={560}
+                className="mx-auto max-h-[480px] w-auto object-contain"
+              />
+            </FadeUp>
+          </div>
 
+          <FadeUp>
             <iframe
               className="mx-auto mt-10 aspect-video w-full max-w-3xl rounded-xl"
               src="https://www.youtube.com/embed/XwQEPYWkcl8"

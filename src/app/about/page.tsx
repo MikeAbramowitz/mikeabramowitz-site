@@ -66,8 +66,18 @@ export default function AboutPage() {
 
       {/* ── The Career Chapter ── */}
       <section className="bg-brand-cream py-20 md:py-24">
-        <div className="mx-auto max-w-3xl px-6">
-          <FadeUp>
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <FadeUp>
+              <Image
+                src="/mike-about-1.jpg"
+                alt="Mike Abramowitz"
+                width={600}
+                height={400}
+                className="h-[400px] w-full rounded-lg object-cover"
+              />
+            </FadeUp>
+            <FadeUp>
             <h2 className="font-heading text-[28px] leading-snug text-brand-dark">
               20 years of building.
             </h2>
@@ -88,7 +98,8 @@ export default function AboutPage() {
               skills are. Sales, leadership, team building, culture, and
               systems. Those 20 years gave me every tool I use today.
             </p>
-          </FadeUp>
+            </FadeUp>
+          </div>
         </div>
       </section>
 
@@ -118,6 +129,14 @@ export default function AboutPage() {
               philanthropy, and adventure. I am a 7x firewalker and Date with
               Destiny graduate. Community building is in my DNA.
             </p>
+
+            <iframe
+              className="mt-10 aspect-video w-full rounded-xl"
+              src="https://www.youtube.com/embed/ckuNkHXi55k"
+              title="PB&J for Tampa Bay"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </FadeUp>
         </div>
       </section>
@@ -193,7 +212,8 @@ export default function AboutPage() {
 
       {/* ── The Current Chapter ── */}
       <section className="bg-white py-20 md:py-24">
-        <div className="mx-auto max-w-3xl px-6">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
           <FadeUp>
             <h2 className="font-heading text-[28px] leading-snug text-brand-dark">
               What I am building now.
@@ -225,6 +245,16 @@ export default function AboutPage() {
               </Link>
             </div>
           </FadeUp>
+          <FadeUp>
+            <Image
+              src="/mike-about-3.png"
+              alt="Mike Abramowitz"
+              width={460}
+              height={560}
+              className="mx-auto max-h-[500px] w-auto rounded-lg object-contain"
+            />
+          </FadeUp>
+          </div>
         </div>
       </section>
     </main>

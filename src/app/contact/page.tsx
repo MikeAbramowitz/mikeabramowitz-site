@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import FadeUp from "@/components/FadeUp";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -29,8 +30,21 @@ export default function ContactPage() {
       {/* Contact Form Section */}
       <FadeUp>
         <section className="py-16">
-          <div className="mx-auto max-w-2xl px-6">
-            <ContactForm />
+          <div className="mx-auto max-w-5xl px-6">
+            <div className="grid items-start gap-12 lg:grid-cols-2">
+              <div>
+                <ContactForm />
+              </div>
+              <div className="hidden lg:block">
+                <Image
+                  src="/mike-speaking-2.png"
+                  alt="Mike Abramowitz"
+                  width={460}
+                  height={560}
+                  className="mx-auto max-h-[500px] w-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </FadeUp>
