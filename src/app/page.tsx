@@ -85,14 +85,33 @@ export default function HomePage() {
                 className="mx-auto h-[460px] w-[380px] rounded-lg object-cover"
                 priority
               />
-              <div className="absolute bottom-4 left-4 rounded-lg bg-brand-white px-5 py-3 shadow-lg lg:bottom-8 lg:left-0">
-                <p className="text-[28px] font-bold text-brand-blue">100+</p>
-                <p className="text-[13px] text-brand-gray-400">
-                  Podcast appearances
-                </p>
-              </div>
             </FadeUp>
           </div>
+
+          <FadeUp>
+            <div className="mt-16 grid grid-cols-2 gap-8 border-t border-brand-gray-200 pt-10 sm:grid-cols-3 lg:grid-cols-5">
+              <div>
+                <p className="text-[28px] font-bold text-brand-blue">$25M+</p>
+                <p className="text-[13px] text-brand-gray-400">Sales generated</p>
+              </div>
+              <div>
+                <p className="text-[28px] font-bold text-brand-blue">300+</p>
+                <p className="text-[13px] text-brand-gray-400">Business owners coached</p>
+              </div>
+              <div>
+                <p className="text-[28px] font-bold text-brand-blue">9</p>
+                <p className="text-[13px] text-brand-gray-400">Books authored</p>
+              </div>
+              <div>
+                <p className="text-[28px] font-bold text-brand-blue">100+</p>
+                <p className="text-[13px] text-brand-gray-400">Podcast appearances</p>
+              </div>
+              <div>
+                <p className="text-[28px] font-bold text-brand-blue">100K+</p>
+                <p className="text-[13px] text-brand-gray-400">Meals served to homeless</p>
+              </div>
+            </div>
+          </FadeUp>
         </div>
       </section>
 
@@ -173,22 +192,22 @@ export default function HomePage() {
               <div className="mt-8 flex gap-8">
                 <div>
                   <p className="text-[32px] font-bold text-brand-blue">
-                    5,000+
+                    50K+
                   </p>
                   <p className="text-[13px] text-brand-gray-400">
-                    People trained
-                  </p>
-                </div>
-                <div>
-                  <p className="text-[32px] font-bold text-brand-blue">$20M</p>
-                  <p className="text-[13px] text-brand-gray-400">
-                    In team sales
+                    Live audience members
                   </p>
                 </div>
                 <div>
-                  <p className="text-[32px] font-bold text-brand-blue">$5M+</p>
+                  <p className="text-[32px] font-bold text-brand-blue">50+</p>
                   <p className="text-[13px] text-brand-gray-400">
-                    High-ticket closed
+                    Stages
+                  </p>
+                </div>
+                <div>
+                  <p className="text-[32px] font-bold text-brand-blue">5,000+</p>
+                  <p className="text-[13px] text-brand-gray-400">
+                    Trained in workshops
                   </p>
                 </div>
               </div>
