@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import FadeUp from "@/components/FadeUp";
 import Image from "next/image";
-import ContactForm from "@/components/ContactForm";
+import JotFormEmbed from "@/components/JotFormEmbed";
 
 export const metadata: Metadata = {
   title: "Contact Mike Abramowitz",
@@ -33,7 +33,7 @@ export default function ContactPage() {
           <div className="mx-auto max-w-5xl px-6">
             <div className="grid items-start gap-12 lg:grid-cols-2">
               <div>
-                <ContactForm />
+                <JotFormEmbed formId="260904714338054" title="Contact Mike Abramowitz" />
               </div>
               <div className="hidden lg:block">
                 <Image

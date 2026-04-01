@@ -1,7 +1,7 @@
 import FadeUp from "@/components/FadeUp";
 import Image from "next/image";
 import Link from "next/link";
-import SpeakingForm from "@/components/SpeakingForm";
+import JotFormEmbed from "@/components/JotFormEmbed";
 import VideoTestimonialCard from "@/components/VideoTestimonialCard";
 
 export const metadata = {
@@ -236,7 +236,7 @@ export default function SpeakingPage() {
               Check availability.
             </h2>
             <div className="mx-auto mt-10 max-w-2xl">
-              <SpeakingForm />
+              <JotFormEmbed formId="260904714338054" title="Book Mike Abramowitz to Speak" />
             </div>
           </FadeUp>
         </div>
