@@ -47,9 +47,17 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className="text-sm text-white/30">
-          &copy; 2026 Mike Abramowitz. All rights reserved.
-        </p>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+          <p className="text-sm text-white/30">
+            &copy; 2026 Mike Abramowitz. All rights reserved.
+          </p>
+          <Link
+            href="/privacy"
+            className="text-sm text-white/30 transition-colors duration-200 hover:text-white/60"
+          >
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </footer>
   );

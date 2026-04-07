@@ -52,12 +52,14 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
+          <a
+            href="https://app.onecal.io/b/Mikecatchup/intro-strategy-call"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-md bg-brand-blue px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-brand-blue-dark"
           >
-            Get In Touch
-          </Link>
+            Book a Call
+          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -98,13 +100,15 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
+            <a
+              href="https://app.onecal.io/b/Mikecatchup/intro-strategy-call"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="rounded-md bg-brand-blue px-8 py-3 text-lg font-semibold text-white"
             >
-              Get In Touch
-            </Link>
+              Book a Call
+            </a>
           </div>
         </div>
       )}

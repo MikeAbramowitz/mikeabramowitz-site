@@ -27,6 +27,32 @@ export default function ContactPage() {
         </section>
       </FadeUp>
 
+      {/* Book a Session */}
+      <FadeUp>
+        <section className="pb-12">
+          <div className="mx-auto max-w-3xl px-6 text-center">
+            <div className="rounded-xl bg-brand-cream p-8 md:p-10">
+              <h2 className="font-heading text-[28px] leading-snug text-brand-dark">
+                Book a complimentary strategy session.
+              </h2>
+              <p className="mt-4 text-[17px] leading-relaxed text-brand-gray-600">
+                Get a feel for what it is like to work with Mike. A quick
+                conversation to talk through where you are, where you want to
+                go, and whether working together makes sense.
+              </p>
+              <a
+                href="https://app.onecal.io/b/Mikecatchup/intro-strategy-call"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 inline-block rounded-md bg-brand-blue px-8 py-3 text-[17px] font-medium text-white transition-opacity hover:opacity-90"
+              >
+                Book Complimentary Session
+              </a>
+            </div>
+          </div>
+        </section>
+      </FadeUp>
+
       {/* Contact Form Section */}
       <FadeUp>
         <section className="py-16">

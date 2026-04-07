@@ -300,20 +300,28 @@ export default function HomePage() {
             <h2 className="font-heading text-[36px] text-white">
               Ready to talk?
             </h2>
-            <p className="mx-auto mt-4 max-w-lg text-[17px] text-white/70">
+            <p className="mx-auto mt-4 max-w-lg text-[17px] text-white/90">
               Whether you need a referral system, a revenue partner, a speaker,
               or a coach, it starts with a conversation.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a
+                href="https://app.onecal.io/b/Mikecatchup/intro-strategy-call"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-brand-navy transition-colors duration-200 hover:bg-brand-gray-100"
+              >
+                Book a Free Session
+              </a>
               <Link
                 href="/work-with-me"
-                className="rounded-md bg-white px-6 py-3 text-sm font-semibold text-brand-navy transition-colors duration-200 hover:bg-brand-gray-100"
+                className="rounded-md border border-white/50 bg-transparent px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-white/10"
               >
                 Work With Me
               </Link>
               <Link
                 href="/speaking"
-                className="rounded-md border border-white/30 bg-transparent px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-white/10"
+                className="rounded-md border border-white/50 bg-transparent px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-white/10"
               >
                 Book Me to Speak
               </Link>

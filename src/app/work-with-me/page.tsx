@@ -83,12 +83,14 @@ export default function WorkWithMePage() {
               </p>
             </div>
             <div className="mt-6">
-              <Link
-                href="/contact"
+              <a
+                href="https://warmmethod.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block rounded-md bg-brand-blue px-8 py-3 text-[17px] font-medium text-white transition-opacity hover:opacity-90"
               >
                 Book a WARM Strategy Call
-              </Link>
+              </a>
             </div>
           </FadeUp>
         </div>
@@ -221,12 +223,14 @@ export default function WorkWithMePage() {
               been through it.
             </p>
             <div className="mt-6">
-              <Link
-                href="/contact"
+              <a
+                href="https://app.onecal.io/b/Mikecatchup/intro-strategy-call"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block rounded-md bg-brand-blue px-8 py-3 text-[17px] font-medium text-white transition-opacity hover:opacity-90"
               >
-                Apply for Coaching
-              </Link>
+                Book Complimentary Session
+              </a>
             </div>
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
               <div>
