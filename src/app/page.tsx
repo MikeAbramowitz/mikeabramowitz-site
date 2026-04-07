@@ -294,13 +294,13 @@ export default function HomePage() {
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="bg-brand-navy py-20">
+      <section className="bg-brand-blue py-20">
         <div className="mx-auto max-w-7xl px-6 text-center">
           <FadeUp>
             <h2 className="font-heading text-[36px] text-white">
               Ready to talk?
             </h2>
-            <p className="mx-auto mt-4 max-w-lg text-[17px] text-white/90">
+            <p className="mx-auto mt-4 max-w-lg text-[17px] text-white">
               Whether you need a referral system, a revenue partner, a speaker,
               or a coach, it starts with a conversation.
             </p>
